@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XY_orarend SYSTEM "JTUBQH_orarend.dtd">
+
+<XY_orarend>
+    <ora id="o1" tipus="eloadas">
+        <targy>Web technológiák 1.</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>E 5.</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o2" tipus="gyakorlat">
+        <targy>Webes adatkezelo kornyezetek</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o3" tipus="gyakorlat">
+        <targy>Web technológiák 1.</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o4" tipus="eloadas">
+        <targy>Mobil programozási alapok</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o5" tipus="gyakorlat">
+        <targy>Mobil programozási alapok</targy>
+        <idopont>
+            <nap>hetfo</nap>
+            <tol>18:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>Inf/101</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o6" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>E 33</helyszin>
+        <oktato>Fazekas Levente Áron</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o7" tipus="eloadas">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>E 32</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o8" tipus="eloadas">
+        <targy>Windows rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Huszák Péter</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o9" tipus="gyakorlat">
+        <targy>Windows rendszergazda</targy>
+        <idopont>
+            <nap>kedd</nap>
+            <tol>18:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>Inf/103</helyszin>
+        <oktato>Huszák Péter</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+
+    <ora id="o10" tipus="eloadas">
+        <targy>Webes adatkezelo kornyezetek</targy>
+        <idopont>
+            <nap>szerda</nap>
+            <tol>8:00</tol>
+            <ig>10:00</ig>
+        </idopont>
+        <helyszin>Inf/LAU7</helyszin>
+        <oktato>Dr. Kovács László József</oktato>
+        <szak>Mernokinformatikus</szak>
+    </ora>
+    
+
+
+
+
+
+</XY_orarend>

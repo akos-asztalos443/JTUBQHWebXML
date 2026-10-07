@@ -1,0 +1,35 @@
+<kurzusfelvetel tanev="2026/27 I." egyetem="Miskolci Egyetem">
+
+    <hallgato>
+        <hnev>Minta Janos</hnev>
+        <szulev>2004</szulev>
+        <szak evf="3">Mernokinformatikus</szak>
+    </hallgato>
+
+    <kurzusok>
+        <kurzus id="GEIAL332-B">
+            <kurzusnev>Webes adatkezelo kornyezetek</kurzusnev>
+            <hely>Inf/101</hely>
+            <idopont>Szerda 08:00-10:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+
+        <kurzus id="GEIAL331-B">
+            <kurzusnev>Web technológiák 1.</kurzusnev>
+            <hely>Inf/101</hely>
+            <idopont>Hétfő 10:00-12:00</idopont>
+            <idopont>Hétfő 14:00-16:00</idopont>
+            <oraado>Dr. Agárdi Anita</oraado>
+        </kurzus>
+
+        <kurzus id="GEIAL314-B">
+            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+            <hely>E 32</hely>
+            <idopont>Kedd 10:00-12:00</idopont>
+            <oraado>Kunné Dr. Tamás Judit</oraado>
+        </kurzus>
+
+    </kurzusok>
+
+
+</kurzusfelvetel>

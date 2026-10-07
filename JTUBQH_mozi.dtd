@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT mozi (film*)>
+
+<!ELEMENT film (rendezo+, szinesz+, iro+)>
+<!ATTLIST film id ID #REQUIRED>
+<!ATTLIST film mufaj (horror | akcio | vigjatek) "horror">
+
+<!ELEMENT rendezo (fodorendezo?, tarsrendezo?)>
+<!ATTLIST rendezo id ID #REQUIRED>
+<!ATTLIST rendezo nev CDATA #IMPLIED>
+<!ELEMENT forendezo EMPTY>
+<!ELEMENT tarsrendezo EMPTY>
+
+<!ELEMENT szinesz (gyerekszinesz?, musicalszinesz?, szinkronszinesz?)>
+<!ATTLIST szinesz id ID #REQUIRED>
+<!ATTLIST szinesz nev CDATA #IMPLIED>
+<!ELEMENT gyerekszinesz EMPTY>
+<!ELEMENT musicalszinesz EMPTY>
+<!ELEMENT szinkronszinesz EMPTY>
+
+
+<!ELEMENT iro (forgatokonyviro?, dramaturg?)>
+<!ATTLIST iro id ID #IMPLIED>
+<!ELEMENT forgatokonyviro EMPTY>
+<!ELEMENT dramaturg EMPTY>

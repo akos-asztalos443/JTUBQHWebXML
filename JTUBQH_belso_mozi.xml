@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi [
+    <!ELEMENT mozi (film*)>
+
+    <!ELEMENT film (rendezo | szinesz | iro)+>
+    <!ATTLIST film
+        id ID #REQUIRED
+        mufaj (horror | akcio | vigjatek) "horror">
+
+    <!ELEMENT rendezo (fodorendezo?, tarsrendezo?)>
+    <!ATTLIST rendezo
+        id ID #IMPLIED
+        nev CDATA #IMPLIED>
+    <!ELEMENT fodorendezo EMPTY>
+    <!ELEMENT tarsrendezo EMPTY>
+
+    <!ELEMENT szinesz (gyerekszinesz?, musicalszinesz?, szinkronszinesz?)>
+    <!ATTLIST szinesz
+        id ID #REQUIRED
+        nev CDATA #IMPLIED>
+    <!ELEMENT gyerekszinesz EMPTY>
+    <!ELEMENT musicalszinesz EMPTY>
+    <!ELEMENT szinkronszinesz EMPTY>
+
+    <!ELEMENT iro (forgatokonyviro?, dramaturg?)>
+    <!ATTLIST iro
+        id ID #IMPLIED>
+    <!ELEMENT forgatokonyviro EMPTY>
+    <!ELEMENT dramaturg EMPTY>
+]>
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk_4xm_2jb" nev="alex" />
+        <szinesz id="u5g_4xm_2jb" nev="Madison_Ivy" />
+        <szinesz id="a1">
+            <gyerekszinesz />
+            <musicalszinesz />
+            <szinkronszinesz />
+        </szinesz>
+        <iro id="trv_4xm_2jb" />
+        <rendezo> 
+            <fodorendezo />
+            <tarsrendezo />
+        </rendezo>
+        <iro>
+            <forgatokonyviro />
+            <dramaturg />
+        </iro>
+    </film>
+</mozi>
