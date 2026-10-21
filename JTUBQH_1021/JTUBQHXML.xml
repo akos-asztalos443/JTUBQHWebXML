@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JTUBQH_Vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:noNamespaceSchemaLocation="JTUBQH_XMLSchema.xsd">
+
+    <Etterem EKod="e1">
+        <Nev>Trófea</Nev>
+        <Cim>
+            <Varos>Budapest</Varos>
+            <Utca>Visegrádi</Utca>
+            <Hazszam>13</Hazszam>
+        </Cim>
+    </Etterem>
+
+    <Etterem EKod="e2">
+        <Nev>Gundel</Nev>
+        <Cim>
+            <Varos>Budapest</Varos>
+            <Utca>Gundel Károly</Utca>
+            <Hazszam>4</Hazszam>
+        </Cim>
+    </Etterem>
+
+    <Foszakacs FKod="f1" E_F="e1">
+        <Nev>Havas Péter</Nev>
+        <Eletkor>35</Eletkor>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>Institut Paul Bocuse</Vegzettseg> 
+    </Foszakacs>
+
+    <Foszakacs FKod="f2" E_F="e2">
+        <Nev>Nagy Károly</Nev>
+        <Eletkor>30</Eletkor>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>La Cordon Bleu</Vegzettseg> 
+    </Foszakacs>
+
+    <Szakacs SzKod="sz1" E_SZ="e1">
+        <Nev>Nagy István</Nev>
+        <Reszleg>Saucier</Reszleg>
+        <Vegzettseg>Technikus</Vegzettseg>
+        <Vegzettseg>La Cordon Bleu</Vegzettseg>
+        <Vegzettseg>Institut Paul Bocuse</Vegzettseg>
+    </Szakacs>
+
+    <Szakacs SzKod="sz2" E_SZ="e2">
+        <Nev>Nagy Péter</Nev>
+        <Reszleg>Entremetier</Reszleg>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>La Cordon Bleu</Vegzettseg>
+    </Szakacs>
+
+    <Szakacs SzKod="sz3" E_SZ="e2">
+        <Nev>Szabó Dávid</Nev>
+        <Reszleg>Gardemanger</Reszleg>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+    </Szakacs>
+
+    <Szakacs SzKod="sz4" E_SZ="e1">
+        <Nev>Szabó Dávid</Nev>
+        <Reszleg>Gardemanger</Reszleg>
+        <Vegzettseg>Szakközépiskola</Vegzettseg>
+        <Vegzettseg>La Cordon Bleu</Vegzettseg>
+    </Szakacs>
+
+    <Gyakornok GyKod="gy1" E_GY="e1">
+        <Nev>Bordás Dávid</Nev>
+        <Gyakorlat>
+            <Kezdete>2023.08.20</Kezdete>
+            <Idtartama>2 hónap</Idtartama>
+        </Gyakorlat>
+        <Muszak>Délelőtt</Muszak>
+        <Muszak>Este</Muszak>
+    </Gyakornok>
+
+    <Gyakornok GyKod="gy2" E_GY="e2">
+        <Nev>Szilágyi István</Nev>
+        <Gyakorlat>
+            <Kezdete>2023.06.01</Kezdete>
+            <Idtartama>4 hónap</Idtartama>
+        </Gyakorlat>
+        <Muszak>Délután</Muszak>
+    </Gyakornok>
+
+    <Gyakornok GyKod="gy3" E_GY="e1">
+        <Nev>Szentpétery Ferenc</Nev>
+        <Gyakorlat>
+            <Kezdete>2023.01.01</Kezdete>
+            <Idtartama>10 hónap</Idtartama>
+        </Gyakorlat>
+        <Muszak>Délelőtt</Muszak>
+        <Muszak>Délután</Muszak>
+    </Gyakornok>
+
+    <Vendeg VKod="v1">
+        <Nev>Fekete Péter</Nev>
+        <Eletkor>21</Eletkor>
+        <Cim>
+            <Varos>Miskolc</Varos>
+            <Utca>Dobó</Utca>
+            <Hazszam>12</Hazszam>
+        </Cim>
+    </Vendeg>
+
+    <Vendeg VKod="v2">
+        <Nev>Bordás Áron</Nev>
+        <Eletkor>25</Eletkor>
+        <Cim>
+            <Varos>Eger</Varos>
+            <Utca>Dobó</Utca>
+            <Hazszam>12</Hazszam>
+        </Cim>
+    </Vendeg>
+
+    <Vendeg VKod="v3">
+        <Nev>Kiss Hajnalka</Nev>
+        <Eletkor>26</Eletkor>
+        <Cim>
+            <Varos>Miskolc</Varos>
+            <Utca>Egyetem-város</Utca>
+            <Hazszam>1</Hazszam>
+        </Cim>
+    </Vendeg>
+
+    <rendeles e_v_e="e1" e_v_v="v2">
+        <osszeg>6200</osszeg>
+        <etel>Túrós csusza pörccel</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v2">
+        <osszeg>8000</osszeg>
+        <etel>Steak</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e1" e_v_v="v2">
+        <osszeg>12500</osszeg>
+        <etel>Gulyásleves és Somlói galuska</etel>
+    </rendeles>
+
+    <rendeles e_v_e="e2" e_v_v="v3">
+        <osszeg>15400</osszeg>
+        <etel>Kacsasült párolt káposztával</etel>
+    </rendeles>
+
+</JTUBQH_Vendeglatas>
