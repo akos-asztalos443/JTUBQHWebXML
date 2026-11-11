@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="studentJTUBQH.xsd">
+    <hallgato id="01">
+        <keresztnev>Pál</keresztnev>
+        <vezeteknev>Kiss</vezeteknev>
+        <becenev>Pali</becenev>
+        <kor>22</kor>
+        <foglalkozas>Web Developer</foglalkozas>
+    </hallgato>
+    <hallgato id="02">
+        <keresztnev>Piroska</keresztnev>
+        <vezeteknev>Vigh</vezeteknev>
+        <becenev>Piri</becenev>
+        <kor>19</kor>
+        <foglalkozas>Java Programozo</foglalkozas>
+    </hallgato>
+    <hallgato id="03">
+        <keresztnev>Ferenc</keresztnev>
+        <vezeteknev>Gordon</vezeteknev>
+        <becenev>Feri</becenev>
+        <kor>45</kor>
+        <foglalkozas>associate professor</foglalkozas>
+    </hallgato>
+</class>
